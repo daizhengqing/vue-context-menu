@@ -1,18 +1,32 @@
 # vue-context-menu
 
-> A Vue.js project
+> A ConextMenu for Vue
 
-## Build Setup
+## Install
 
-``` bash
-# install dependencies
-npm install
+```npm install @ddzq789/vue-context-menu```
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Useage
 
-# build for production with minification
-npm run build
+```
+  import VueContextMenu from '@ddzq789/vue-context-menu'
+  Vue.use(VueContextMenu)
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+```
+  <div id="app" v-contextMenu:contextMenuA="'Hello world'">here</div>
+
+  <context-menu ref="contextMenuA">
+    <context-menu-item @click="onCLick">copy</context-menu-item>
+    <context-menu-item>cut</context-menu-item>
+    <context-menu-item>paste</context-menu-item>
+  </context-menu>
+  
+  methods: {
+    onCLick (data, el) {
+      console.log(data)  // you can get 'Hello world'
+      console.log(el) // you can get div#app
+    }
+  }
+```
+

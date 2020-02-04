@@ -15,6 +15,7 @@
 
 ```
   <div id="app" v-contextMenu:contextMenuA="'Hello world'">here</div>
+  // also you can no parameters  v-contextMenu:contextMenuA
 
   <context-menu ref="contextMenuA">
     <context-menu-item @click="onCLick">copy</context-menu-item>

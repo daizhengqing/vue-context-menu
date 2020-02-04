@@ -2,11 +2,7 @@
 
 > A ConextMenu for Vue
 
-## Build Setup
+## Install
 
-``` bash
-# install dependencies
-npm install @ddzq789/vue-context-menu
+```npm install @ddzq789/vue-context-menu```
 
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

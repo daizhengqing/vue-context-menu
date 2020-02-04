@@ -31,5 +31,5 @@
   }
 ```
 
-or you can see [example link](https://codepen.io/daizq/pen/xxGKbvY)
+or you can see [Example Link](https://codepen.io/daizq/pen/xxGKbvY)
 

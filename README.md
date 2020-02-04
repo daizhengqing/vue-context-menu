@@ -25,8 +25,8 @@
   
   methods: {
     onCLick (data, el) {
-      console.log(data)  // you can get 'Hello world'
-      console.log(el) // you can get div#app
+      console.log(data)  // you will get 'Hello world'
+      console.log(el) // you will get div#app
     }
   }
 ```
